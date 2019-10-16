@@ -1,3 +1,11 @@
+## Based on https://scotch.io/tutorials/build-an-infinite-scroll-image-gallery-with-gatsby-and-netlify-functions
+
+To get working on local version, must start on 2 servers: 9000 to get data, 8000 to show site. Otherwise errors appear. Must close both servers, Ctrl+C only closes current one in terminal.
+a) netlify-lambda serve src/lambda
+Navigate to http://localhost:9000/fetch to see the data fetched from the API being displayed on the browser.
+b) gatsby develop
+Navigate to http://localhost:8000/ to see the website.
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

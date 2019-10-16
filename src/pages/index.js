@@ -11,12 +11,12 @@ const IndexPage1 = () => (
     <div className="has-text-centered" style={{ marginTop: "20%" }}>
       <h1 className="is-size-2">Welcome to Dog Gallery 😹</h1>
       <p className="is-size-5" style={{ marginTop: "2%" }}>
-        Find within, a dog-focussed infinite image gallery built with Gatsby, and
-        images served using Netlify functions from Unsplash. Perfecto!
+        Here is a dog-focussed infinite image gallery built with Gatsby, and
+        images served using Netlify functions from Unsplash. 🐶
       </p>
       <button className="button is-dark is-large" style={{ marginTop: "10%" }}>
         <Link to="/gallery/" className="has-text-white">
-          Click to see gallery! 🔥
+          Click to see dogs! 🔥
         </Link>
       </button>
     </div>
